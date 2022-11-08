@@ -1,0 +1,60 @@
+[
+    {
+        "title": "Wedding Event",
+        "price": 5000,
+        "description": "This Digital Marketing Training Program provides a detailed understanding of Digital Marketing concepts, strategies, and implementation, including planning a website, website promotion, email and Search Engine Optimization (SEO) campaigns, and integrating digital marketing with traditional marketing.",
+        "category": "Wedding Photograph",
+        "image": "https://images.unsplash.com/photo-1508435234994-67cfd7690508?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8d2VkZGluZ3xlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60",
+        "rating": {
+            "rate": 4.5
+        }
+    },
+    {
+        "title": "Pre-Wedding Event",
+        "price": 3500,
+        "description": "In this course, you will learn how to apply concepts from interaction design and human-computer interaction in order to design and build an interactive, professional-looking website. You will learn how to make your web page designs adapt to different screen sizes using responsive grid layouts. You will learn how to add navigation and other design elements, and you will learn how to separate data and display using JavaScript objects and templates. You’ll also learn about jQuery plugins and basic Word Press Theme Customization.",
+        "category": "jewelery",
+        "image": "https://images.unsplash.com/photo-1639331309653-5d3dc5e1486b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fHdlZGRpbmd8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "rating": {
+            "rate": 4.9
+        }
+    },
+    {
+        "title": "Birthday Event",
+        "price": 3000,
+        "description": "Graphic design is the lifeline of Digital Marketing. It is currently one of the most sought-after skills in Bangladesh. Graphic design offers an idea to create visual content that communicates ideas and thoughts. In addition to being able to advertise your own business more effectively, you can also make an impact as a graphic designer on the freelance market.Adobe Illustrator and Adobe Photoshop are the most used graphic designing software. This course will provide you with all the ins and outs of these tools and prepare you as a professional designer. With the help of these tools, you will be able to create logos, icons, posters, ads, magazines, and many more design templates.Our graphic designing course outline will help you in learning the design tools to create attractive design templates. All our mentors are highly qualified and have proven records.They are all successful in both their freelancing and professional career. After completing this course, you will get many graphic design jobs in the freelance marketplace like Fiverr, Upwork, Freelancer.com, etc. We will give you the proper guideline for this. At the same time, you can sell your designs in the design marketplace like Freepik, 99 design, adobe stock, etc.",
+        "category": "Birthday Photography",
+        "image": "https://images.unsplash.com/photo-1635117492718-695a17a5977a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGJpcnRoZGF5JTIwZXZlbnR8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "rating": {
+            "rate": 4.1
+        }
+    },
+    {
+        "title": "Family Event",
+        "price": 3500,
+        "description": "A good quality video can be an effective medium for advertising your product or service. Well-structured visual content is more efficient for generating the attention of the audience.Besides, video editing skills have much demand on the freelancing marketplaces. In this video editing course, you will get familiar with all the video editing-related fundamentals and techniques. Because of the online facility, you can even do this course in your free time. So, take admission now and make yourself a professional video editor.",
+        "category": "Family Photography",
+        "image": "https://images.unsplash.com/photo-1560266822-3336a59dc719?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA5fHxmYW1pbHl8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "rating": {
+            "rate": 4.2
+        }
+    },
+    {
+        "title": "Class Event",
+        "price": 4000,
+        "description": "Content writing is one of the hot cakes of both local and freelancing marketplaces. Its demand is everywhere in the world because quality content can buy anything.",
+        "image": "https://images.unsplash.com/photo-1643297654395-d6375d07215c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sbGVnZSUyMGV2ZW50fGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "rating": {
+            "rate": 3.1
+        }
+    },
+    {
+        "title": "Film & Production",
+        "price": 12000,
+        "description": "Excel has been the most effective Data Analysis & Reporting tool for years. However, with its recent developments and extensive use of these features, it is now regarded as an effective and amazing Presentation tool as well. Excel provides flexibility to manipulate and orient data with utmost ease and with minimal effort.",
+        "image": "https://images.unsplash.com/photo-1518930259200-3e5b29f42096?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZmlsbSUyMHByb2R1Y3Rpb258ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "rating": {
+            "rate": 4.6
+        }
+    }
+]
