@@ -5,6 +5,13 @@ import login from "../../images/login.png";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 
+const handleLogIn = event => {
+    event.preventDefault();
+    const form = event.target
+    const email = form.email;
+    const password = form.password
+}
+
 const Login = () => {
   return (
     <div className="container">
@@ -12,7 +19,7 @@ const Login = () => {
       <Card className=" mx-auto p-5" style={{ width: "30rem" }}>
         <Card.Img variant="top" src={login} />
         <Card.Body>
-          <Form>
+          <Form onSubmit={handleLogIn}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>
               <Form.Control type="email" name='email' placeholder="Enter email" required/>

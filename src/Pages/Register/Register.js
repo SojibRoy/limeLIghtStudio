@@ -1,18 +1,36 @@
-import React from "react";
+import React, { useContext } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import login from "../../images/login.png";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../Contexts/AuthProvider/AuthProvider";
 
 const Register = () => {
+    const {createUser} = useContext(AuthContext)
+
+    const handleSignUp = event=>{
+        event.preventDefault();
+        const form = event.target;
+        const email = form.email.value;
+        const password = form.password.value;
+
+        createUser(email, password)
+        .then(result => {
+            const user = result.user
+            console.log(user)
+            
+        })
+        .catch(error => console.error(error))
+
+    }
   return (
     <div>
       <h1 className="my-4 text-center">Register</h1>
       <Card className=" mx-auto p-5" style={{ width: "30rem" }}>
         <Card.Img variant="top" src={login} />
         <Card.Body>
-          <Form>
+          <Form onSubmit={handleSignUp}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>
               <Form.Control type="email" name="email" placeholder="Enter email" />
