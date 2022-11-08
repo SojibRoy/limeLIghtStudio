@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { Row } from "react-bootstrap";
+import ServiceCart from "./ServiceCart";
 
 const Services = () => {
 
@@ -12,9 +14,14 @@ const Services = () => {
   return (
     <div className="container">
       <h3>Services</h3>
-      <div>
-        <h2>services : {services.length}</h2>
-      </div>
+      <Row className="g-4" xs={1} md={2} lg={3}>
+        {
+            services.map(service => <ServiceCart
+            key={service.id}
+            service={service}
+            ></ServiceCart>)
+        }
+      </Row>
     </div>
   );
 };
