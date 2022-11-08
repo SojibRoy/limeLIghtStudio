@@ -8,7 +8,7 @@ const Services = () => {
     const [services, setServices] = useState([]);
 
     useEffect(() => {
-        fetch('services.json')
+        fetch('http://localhost:5000/services')
         .then(res => res.json())
         .then(data => setServices(data))
     },[])
@@ -19,12 +19,12 @@ const Services = () => {
       <Row className="g-4" xs={1} md={2} lg={3}>
         {
             services.slice(0,3).map(service => <ServiceCart
-            key={service.id}
+            key={service._id}
             service={service}
             ></ServiceCart>)
         }
       </Row>
-      <Link className="d-flex justify-content-center btn btn-primary w-25 mx-auto m-4" >See All</Link>
+      <Link to='/servicefield' className="d-flex justify-content-center btn btn-primary w-25 mx-auto m-4" >See All</Link>
     </div>
   );
 };
