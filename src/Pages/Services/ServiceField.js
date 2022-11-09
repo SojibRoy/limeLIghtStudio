@@ -2,6 +2,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import ServiceCart from './ServiceCart';
 import { Row } from "react-bootstrap";
+import ServiceCartAll from './ServiceCartAll';
 
 const ServiceField = () => {
     const services = useLoaderData();
@@ -11,10 +12,10 @@ const ServiceField = () => {
             <p className='text-center fs-5'>Give us a chance to make your moment memoriable</p>
             <Row className="g-4" xs={1} md={2} lg={3}>
                 {
-                    services.map(service => <ServiceCart
+                    services.map(service => <ServiceCartAll
                     key={service._id}
                     service={service}
-                    ></ServiceCart>)
+                    ></ServiceCartAll>)
                 }
 
             </Row>
