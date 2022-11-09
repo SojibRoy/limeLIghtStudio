@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import login from "../../images/login.png";
 import Card from "react-bootstrap/Card";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Contexts/AuthProvider/AuthProvider";
 import { GoogleAuthProvider } from "firebase/auth";
 
@@ -11,6 +11,9 @@ import { GoogleAuthProvider } from "firebase/auth";
 const Login = () => {
   const { logIn, providerLogin } = useContext(AuthContext);
   const googleProvider = new GoogleAuthProvider()
+  const navigate = useNavigate()
+  const location = useLocation();
+  const from = location.state?.from?.pathname || '/'
 
   const handleLogIn = (event) => {
     event.preventDefault();
@@ -23,6 +26,7 @@ const Login = () => {
         const user = result.user;
         console.log(user);
         form.reset();
+        navigate(from, {replace: true})
       })
       .then((error) => console.log(error));
   };

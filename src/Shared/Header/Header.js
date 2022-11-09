@@ -15,7 +15,8 @@ function MenuBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
             <Nav.Link href="/servicefield">Services</Nav.Link>
-            <Nav.Link href="#pricing">Blog</Nav.Link>
+            <Nav.Link href="/blog">Blog</Nav.Link>
+            <Nav.Link href="/reviews">Reviews</Nav.Link>
           </Nav>
           <Nav>
           {
