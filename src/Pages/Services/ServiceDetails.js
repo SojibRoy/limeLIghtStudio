@@ -1,4 +1,5 @@
 import React from "react";
+
 import { useLoaderData } from "react-router-dom";
 
 const ServiceDetails = () => {
@@ -7,7 +8,10 @@ const ServiceDetails = () => {
   return (
     <div className="container my-4">
       <div className="d-flex flex-lg-row flex-column flex-md-column">
+      
         <img src={image} alt="" />
+
+        
         <div className="p-3">
           <h2>{title}</h2>
           <p className="py-3">{description}</p>

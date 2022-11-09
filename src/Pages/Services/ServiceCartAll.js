@@ -2,6 +2,7 @@ import React from 'react';
 import { Col } from 'react-bootstrap';
 
 import Card from 'react-bootstrap/Card';
+import { PhotoProvider, PhotoView } from 'react-photo-view';
 import { Link } from 'react-router-dom';
 
 const ServiceCartAll = ({service}) => {
@@ -10,7 +11,11 @@ const ServiceCartAll = ({service}) => {
     return (
         <Col>
         <Card>
+          <PhotoProvider>
+          <PhotoView src={image}>
         <Card.Img variant="top" src={image} />
+          </PhotoView>
+          </PhotoProvider>
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Text>

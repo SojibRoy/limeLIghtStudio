@@ -1,6 +1,5 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-import ServiceCart from './ServiceCart';
 import { Row } from "react-bootstrap";
 import ServiceCartAll from './ServiceCartAll';
 

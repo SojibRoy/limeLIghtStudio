@@ -3,7 +3,7 @@ import about1 from "../../../images/about1.jpg";
 
 const AboutUs = () => {
   return (
-    <div className="d-flex flex-lg-row flex-column flex-md-column justify-content-between align-items-center">
+    <div className="d-flex flex-lg-row flex-column flex-md-column justify-content-between align-items-center mb-5">
       <div className="w-50">
         <img className="img-fluid rounded-circle" src={about1} alt="" />
       </div>
