@@ -4,8 +4,10 @@ import { Col } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import { Link } from 'react-router-dom';
+import useTitle from '../../Hook/useaTitle';
 
 const ServiceCartAll = ({service}) => {
+  useTitle('Services')
     
     const {_id, image,price,title,description} = service
     return (

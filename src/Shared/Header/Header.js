@@ -4,13 +4,14 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { AuthContext } from '../../Contexts/AuthProvider/AuthProvider';
+import logo from '../../../src/images/logo.png'
 
 function MenuBar() {
   const {user,logOut} = useContext(AuthContext)
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
       <Container>
-        <Navbar.Brand href="/">Lime-Light</Navbar.Brand>
+        <Navbar.Brand href="/"><img className='w-50' src={logo} alt="" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">

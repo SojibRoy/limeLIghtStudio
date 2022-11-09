@@ -6,6 +6,7 @@ import Card from "react-bootstrap/Card";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Contexts/AuthProvider/AuthProvider";
 import { GoogleAuthProvider } from "firebase/auth";
+import useTitle from "../../Hook/useaTitle";
 
 
 const Login = () => {
@@ -14,6 +15,7 @@ const Login = () => {
   const navigate = useNavigate()
   const location = useLocation();
   const from = location.state?.from?.pathname || '/'
+  useTitle('Login')
 
   const handleLogIn = (event) => {
     event.preventDefault();

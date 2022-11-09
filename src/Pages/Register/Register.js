@@ -5,15 +5,18 @@ import login from "../../images/login.png";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Contexts/AuthProvider/AuthProvider";
+import useTitle from "../../Hook/useaTitle";
 
 const Register = () => {
     const {createUser} = useContext(AuthContext)
+    useTitle('Register')
 
     const handleSignUp = event=>{
         event.preventDefault();
         const form = event.target;
         const email = form.email.value;
         const password = form.password.value;
+
 
         createUser(email, password)
         .then(result => {
@@ -40,11 +43,11 @@ const Register = () => {
               <Form.Label>Password</Form.Label>
               <Form.Control name="password" type="password" placeholder="Password" />
             </Form.Group>
-            <Button variant="primary" type="submit">
+            <Button className="w-100" variant="outline-primary" type="submit">
               Register
             </Button>
             <p className="pt-3">
-              Already have an account? <Link to="/register">Log in</Link>
+              Already have an account? <Link to="/login">Log in</Link>
             </p>
           </Form>
         </Card.Body>

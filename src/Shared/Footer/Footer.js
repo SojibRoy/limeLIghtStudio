@@ -1,12 +1,12 @@
 import React from "react";
+import logo from "../../../src/images/logo.png";
 
 const Footer = () => (
   <footer className="page-footer font-small blue pt-4 ">
     <div className="container-fluid text-center text-md-left">
       <div className="row bg-light pt-4">
-        <div className="col-md-6 mt-md-0 mt-3">
-          <h5 className="text-uppercase fs-3">Lime-Light</h5>
-          
+        <div className="col-md-6 mt-md-0 mt-3 ">
+          <img className="w-25" src={logo} alt="" />
         </div>
 
         <hr className="clearfix w-100 d-md-none pb-0" />
@@ -15,16 +15,24 @@ const Footer = () => (
           <h5 className="text-uppercase">Lime-Light</h5>
           <ul className="list-unstyled">
             <li>
-              <a className="text-decoration-none" href="#!">Resources</a>
+              <a className="text-decoration-none" href="#!">
+                Resources
+              </a>
             </li>
             <li>
-              <a className="text-decoration-none" href="#!">About Us</a>
+              <a className="text-decoration-none" href="#!">
+                About Us
+              </a>
             </li>
             <li>
-              <a className="text-decoration-none" href="#!">Contact</a>
+              <a className="text-decoration-none" href="#!">
+                Contact
+              </a>
             </li>
             <li>
-              <a className="text-decoration-none" href="#!">Blog</a>
+              <a className="text-decoration-none" href="#!">
+                Blog
+              </a>
             </li>
           </ul>
         </div>
@@ -33,19 +41,28 @@ const Footer = () => (
           <h5 className="text-uppercase ">Help</h5>
           <ul className="list-unstyled ">
             <li>
-              <a className="text-decoration-none" href="#!">Support</a>
+              <a className="text-decoration-none" href="#!">
+                Support
+              </a>
             </li>
             <li>
-              <a className="text-decoration-none" href="#!">Sign Up</a>
+              <a className="text-decoration-none" href="#!">
+                Sign Up
+              </a>
             </li>
             <li>
-              <a className="text-decoration-none" href="#!">Sign In</a>
+              <a className="text-decoration-none" href="#!">
+                Sign In
+              </a>
             </li>
           </ul>
         </div>
         <div className="footer-copyright text-center py-3">
           © 2022 Copyright:
-          <a className="text-decoration-none" href="#!"> lime-light.com</a>
+          <a className="text-decoration-none" href="#!">
+            {" "}
+            lime-light.com
+          </a>
         </div>
       </div>
     </div>
