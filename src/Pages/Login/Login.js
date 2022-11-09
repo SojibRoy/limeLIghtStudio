@@ -5,24 +5,36 @@ import login from "../../images/login.png";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Contexts/AuthProvider/AuthProvider";
+import { GoogleAuthProvider } from "firebase/auth";
+
 
 const Login = () => {
+  const { logIn, providerLogin } = useContext(AuthContext);
+  const googleProvider = new GoogleAuthProvider()
 
-    const {logIn} = useContext(AuthContext)
+  const handleLogIn = (event) => {
+    event.preventDefault();
+    const form = event.target;
+    const email = form.email.value;
+    const password = form.password.value;
 
-    const handleLogIn = event => {
-        event.preventDefault();
-        const form = event.target
-        const email = form.email.value;
-        const password = form.password.value;
+    logIn(email, password)
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+      })
+      .then((error) => console.log(error));
+  };
 
-        logIn(email,password)
-        .then(result => {
-            const user = result.user;
-            console.log(user)
-        })
-        .then(error => console.log(error));
-    }
+  const handleGoogleSingIn = () => {
+    providerLogin(googleProvider)
+    .then(result => {
+      const user = result.user;
+      console.log(user)
+    })
+    .catch(err => console.error(err))
+
+  }
 
   return (
     <div className="container">
@@ -33,20 +45,33 @@ const Login = () => {
           <Form onSubmit={handleLogIn}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>
-              <Form.Control type="email" name='email' placeholder="Enter email" required/>
+              <Form.Control
+                type="email"
+                name="email"
+                placeholder="Enter email"
+                required
+              />
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicPassword">
               <Form.Label>Password</Form.Label>
-              <Form.Control type="password" name="password" placeholder="Password" required />
+              <Form.Control
+                type="password"
+                name="password"
+                placeholder="Password"
+                required
+              />
             </Form.Group>
-            <Button variant="primary" type="submit">
+            <Button className="w-100" variant="outline-primary" type="submit">
               Log In
             </Button>
-            <p className="pt-3">
-              Don't have an account? <Link to="/register">Register</Link>{" "}
-            </p>
           </Form>
+        
+            <button onClick={handleGoogleSingIn} className="mt-2 btn btn-outline-primary w-100">Google</button>
+          
+          <p className="pt-3">
+            Don't have an account? <Link to="/register">Register</Link>
+          </p>
         </Card.Body>
       </Card>
     </div>
