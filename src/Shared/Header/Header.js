@@ -1,8 +1,12 @@
+import userEvent from '@testing-library/user-event';
+import { useContext } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { AuthContext } from '../../Contexts/AuthProvider/AuthProvider';
 
 function MenuBar() {
+  const {user,logOut} = useContext(AuthContext)
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
       <Container>
@@ -14,10 +18,19 @@ function MenuBar() {
             <Nav.Link href="#pricing">Blog</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="/login">Login</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link>
+          {
+            user?.uid?
+            <button onClick={logOut} className='btn btn-outline-dark'>Sign out</button>
+            :
+            <>
+            <Nav.Link  href="/login">
+            Log in
+          </Nav.Link>
+            <Nav.Link  href="/register">
+            Register
+          </Nav.Link>
+            </>
+            }
           </Nav>
         </Navbar.Collapse>
       </Container>

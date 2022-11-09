@@ -6,6 +6,7 @@ import Register from '../Pages/Register/Register';
 import ServiceDetails from '../Pages/Services/ServiceDetails';
 import ServiceField from '../Pages/Services/ServiceField';
 import Services from '../Pages/Services/Services';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
 
 const router = createBrowserRouter([
     {
@@ -35,7 +36,7 @@ const router = createBrowserRouter([
         {
           path:'/details/:id',
           loader:({params}) => fetch(`http://localhost:5000/services/${params.id}`),
-          element:<ServiceDetails></ServiceDetails>
+          element:<PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>
         }
       ]
     }
