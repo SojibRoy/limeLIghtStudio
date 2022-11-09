@@ -7,7 +7,7 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
-    <Carousel className="container mt-3">
+    <Carousel className="mt-3">
       <Carousel.Item className="position-relative">
         <div className="carousel-overlay">
           <img

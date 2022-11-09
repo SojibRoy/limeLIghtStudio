@@ -10,7 +10,7 @@ function MenuBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
-            <Nav.Link href="#features">Services</Nav.Link>
+            <Nav.Link href="/servicefield">Services</Nav.Link>
             <Nav.Link href="#pricing">Blog</Nav.Link>
           </Nav>
           <Nav>
