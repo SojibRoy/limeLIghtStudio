@@ -3,8 +3,8 @@ import Main from "../Layout/Main";
 import Blog from "../Pages/Blog/Blog";
 import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
+import MyReviewsField from "../Pages/MyReviewsField/MyReviewsField";
 import Register from "../Pages/Register/Register";
-import Review from "../Pages/Review/Review";
 import ServiceDetails from "../Pages/Services/ServiceDetails";
 import ServiceField from "../Pages/Services/ServiceField";
 import PrivateRoute from "./PrivateRoute/PrivateRoute";
@@ -28,13 +28,13 @@ const router = createBrowserRouter([
       },
       {
         path: "/servicefield",
-        loader: () => fetch("http://localhost:5000/services"),
+        loader: () => fetch("https://y-kappa-indol.vercel.app/services"),
         element: <ServiceField></ServiceField>,
       },
       {
         path: "/details/:id",
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/services/${params.id}`),
+          fetch(`https://y-kappa-indol.vercel.app/services/${params.id}`),
         element: (
           <PrivateRoute>
             <ServiceDetails></ServiceDetails>
@@ -42,12 +42,8 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/reviews",
-        element: (
-          <PrivateRoute>
-            <Review></Review>
-          </PrivateRoute>
-        ),
+        path: "/myreviews",
+        element: <PrivateRoute><MyReviewsField></MyReviewsField></PrivateRoute>,
       },
       {
         path: "/blog",

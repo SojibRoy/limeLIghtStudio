@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { AuthContext } from '../../Contexts/AuthProvider/AuthProvider';
 import logo from '../../../src/images/logo.png'
+import { Link } from 'react-router-dom';
 
 function MenuBar() {
   const {user,logOut} = useContext(AuthContext)
@@ -17,12 +18,17 @@ function MenuBar() {
           <Nav className="mx-auto">
             <Nav.Link href="/servicefield">Services</Nav.Link>
             <Nav.Link href="/blog">Blog</Nav.Link>
-            <Nav.Link href="/reviews">Reviews</Nav.Link>
+            
           </Nav>
           <Nav>
           {
             user?.uid?
+            
+            <Nav.Link>
+            <Link to='/myreviews' className='text-decoration-none me-3  text-muted'>My Reviews</Link>
             <button onClick={logOut} className='btn btn-outline-dark'>Sign out</button>
+          </Nav.Link>
+            
             :
             <>
             <Nav.Link  href="/login">

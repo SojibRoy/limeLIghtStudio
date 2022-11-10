@@ -2,60 +2,131 @@
     {
         "title": "Wedding Event",
         "price": 5000,
-        
-        "description": "This Digital Marketing Training Program provides a detailed understanding of Digital Marketing concepts, strategies, and implementation, including planning a website, website promotion, email and Search Engine Optimization (SEO) campaigns, and integrating digital marketing with traditional marketing.",
+        "description": "A Wedding Photographer is hired to capture the moments of couples getting married on their special day on the film. The job description also includes taking pre-wedding and post-wedding photographs. The most common and specific duties are listed on the Wedding Photographer Resume as follows – covering and taking pictures of huge celebration or gatherings; meeting clients and showing them examples of various designs and portfolio; taking advances and signing an agreement of the project; removing red-eye, cropping and enhancing photo quality; compiling galleries and albums; suggesting books, frames and other display options; and marketing their business by attending wedding fairs and seeking recommendations.Factors critical for job success include the following – exceptional talent with a camera, lighting equipment, and position subjects; familiarity with photo editing software; ability to showcase artistic techniques; salesmanship and friendly demeanor. People from various educational backgrounds take up this role, but marrying couples prefer to hire those possessing a qualification in photography.",
         "category": "Wedding Photograph",
         "image": "https://images.unsplash.com/photo-1508435234994-67cfd7690508?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8d2VkZGluZ3xlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60",
         "rating": {
             "rate": 4.5
-        }
+        },
+        "reviews": [
+            {
+                "id": 1,
+                "picture": "https://images.unsplash.com/photo-1566753323558-f4e0952af115?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBvdHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+                "name": "Alex",
+                "comment": "Satisfied with their services"
+            },
+            {
+                "id": 2,
+                "picture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cG90cmFpdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+                "name": "Sandra",
+                "comment": "Great photographers"
+            }
+        ]
     },
     {
         "title": "Pre-Wedding Event",
         "price": 3500,
-        "description": "In this course, you will learn how to apply concepts from interaction design and human-computer interaction in order to design and build an interactive, professional-looking website. You will learn how to make your web page designs adapt to different screen sizes using responsive grid layouts. You will learn how to add navigation and other design elements, and you will learn how to separate data and display using JavaScript objects and templates. You’ll also learn about jQuery plugins and basic Word Press Theme Customization.",
+        "description": "Most of us know about actual wedding shoots, and even engagement photo-shoots, but a pre-wedding photo-shoot, what is one of those? Well, it is simply a pre-arranged photo-shoot that takes place before the actual wedding day. It usually involves using various props, sometimes at several locations and more often than not the bride and groom will be photographed wearing their actual wedding outfits, so no superstition about not seeing the bride in her gown before the wedding! Pre-wedding photography is becoming more and more popular, particularly in Asia, and there are a number of reasons why couples choose to spend extra money getting snapshots before the big day.-It is a good idea to use the same photographer for your pre-wedding photo-shoot and for your wedding day. This provides an opportunity to get to know you as a couple before the big day. He or she can then understand what type of images you want and also how to get the best possible shots from you. It also gives you ample time to get to know the photographer so that you feel comfortable posing on the wedding day. With no distractions, the photographer can really capture the essence of you as a couple and you will have a wonderful portfolio of images that you can use in the run up to, and as extra décor on your big day.Choosing the right photographer is important to ensure that you have a great selection of images to use, and to set the tone for the big day. Getting the right photographer for any event is not easy, but for any wedding related photos it is essential that you choose one who is able to create exactly what you want. For most other elements of the wedding such as décor, cake, and entertainment, you have a very good idea of what you will be getting. However, all you have to go from when choosing your pre-wedding photographer is a portfolio with samples of photographs from other people’s weddings. This means that careful research and clear communication about artistic style and requirements is essential.s",
         "category": "jewelery",
         "image": "https://images.unsplash.com/photo-1639331309653-5d3dc5e1486b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fHdlZGRpbmd8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
         "rating": {
             "rate": 4.9
-        }
+        },
+        "reviews": [
+            {
+                "id": 1,
+                "picture": "https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cG90cmFpdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+                "name": "Willie Padilla",
+                "comment": "Best Photographer Of The Year Of 2022"
+            },
+            {
+                "id": 2,
+                "picture": "https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHBvdHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+                "name": "Kari Hawkins",
+                "comment": "Loved their works"
+            }
+        ]
     },
     {
         "title": "Birthday Event",
         "price": 3000,
-        "description": "Graphic design is the lifeline of Digital Marketing. It is currently one of the most sought-after skills in Bangladesh. Graphic design offers an idea to create visual content that communicates ideas and thoughts. In addition to being able to advertise your own business more effectively, you can also make an impact as a graphic designer on the freelance market.Adobe Illustrator and Adobe Photoshop are the most used graphic designing software. This course will provide you with all the ins and outs of these tools and prepare you as a professional designer. With the help of these tools, you will be able to create logos, icons, posters, ads, magazines, and many more design templates.Our graphic designing course outline will help you in learning the design tools to create attractive design templates. All our mentors are highly qualified and have proven records.They are all successful in both their freelancing and professional career. After completing this course, you will get many graphic design jobs in the freelance marketplace like Fiverr, Upwork, Freelancer.com, etc. We will give you the proper guideline for this. At the same time, you can sell your designs in the design marketplace like Freepik, 99 design, adobe stock, etc.",
+        "description": "Whether you do it for clients or for family and friends, birthday party photography can be challenging! You need to move quickly, not miss any activities, and be on point with your camera settings.If you’re just getting started, this can feel very overwhelming.When you photograph a birthday party, you’re trying to tell the story of that event. One great way to do this is to think of different scales.This means getting details, people pictures, and wide shots of crowds.For birthday party photography, this can be photos of the birthday cake, a bit of the pile of presents, or decorative touches throughout the space.Posed shots are great for albums, but candid shots of people have more of a narrative. The kids laughing and playing, the adults gushing over the beautiful birthday cake, the host hugging a guest that just arrive.Be sneaky with your camera and look for candid moments to capture. Be ready to snap photos quickly as these moments are definitely fleeting! Speaking of moments, don’t miss the big ones! Either before the birthday party date or right when you arrive, have a chat with the host about the order of events.Ask if there are any moments that are special and must-have birthday party photography. Things like blowing the candles, hitting the piñata, or openings gifts are all typical big moments that would need to be captured.Additionally, make sure to take birthday party photos of any vendors that have been brought in for the event.Natural light should be used as much as possible, but sometimes flash is needed. Flash may come in handy to fill in shadows when your subjects are backlit, or it may also be vital for darker homes that just don’t get enough natural light (or if it’s nighttime!).",
         "category": "Birthday Photography",
         "image": "https://images.unsplash.com/photo-1635117492718-695a17a5977a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGJpcnRoZGF5JTIwZXZlbnR8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
         "rating": {
             "rate": 4.1
-        }
+        },
+        "reviews": [
+            {
+                "id": 1,
+                "picture": "https://images.unsplash.com/photo-1634746715098-6cafbc6a7a00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHBvdHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+                "name": "Julia Gonzales",
+                "comment": "They delivered the products faster than i thought."
+            }
+        ]
     },
     {
         "title": "Family Event",
         "price": 3500,
-        "description": "A good quality video can be an effective medium for advertising your product or service. Well-structured visual content is more efficient for generating the attention of the audience.Besides, video editing skills have much demand on the freelancing marketplaces. In this video editing course, you will get familiar with all the video editing-related fundamentals and techniques. Because of the online facility, you can even do this course in your free time. So, take admission now and make yourself a professional video editor.",
+        "description": "Whether you do it for clients or for family and friends, birthday party photography can be challenging! You need to move quickly, not miss any activities, and be on point with your camera settings.If you’re just getting started, this can feel very overwhelming.When you photograph a birthday party, you’re trying to tell the story of that event. One great way to do this is to think of different scales.This means getting details, people pictures, and wide shots of crowds.For birthday party photography, this can be photos of the birthday cake, a bit of the pile of presents, or decorative touches throughout the space.Posed shots are great for albums, but candid shots of people have more of a narrative. The kids laughing and playing, the adults gushing over the beautiful birthday cake, the host hugging a guest that just arrive.Be sneaky with your camera and look for candid moments to capture. Be ready to snap photos quickly as these moments are definitely fleeting! Speaking of moments, don’t miss the big ones! Either before the birthday party date or right when you arrive, have a chat with the host about the order of events.Ask if there are any moments that are special and must-have birthday party photography. Things like blowing the candles, hitting the piñata, or openings gifts are all typical big moments that would need to be captured.Additionally, make sure to take birthday party photos of any vendors that have been brought in for the event.Natural light should be used as much as possible, but sometimes flash is needed. Flash may come in handy to fill in shadows when your subjects are backlit, or it may also be vital for darker homes that just don’t get enough natural light (or if it’s nighttime!).",
         "category": "Family Photography",
         "image": "https://images.unsplash.com/photo-1560266822-3336a59dc719?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA5fHxmYW1pbHl8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
         "rating": {
             "rate": 4.2
-        }
+        },
+        "reviews": [
+            {
+                "id": 1,
+                "picture": "https://images.unsplash.com/photo-1604320239424-855007f7d759?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHBvdHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+                "name": "Ella Greene",
+                "comment": "Customer service 100%"
+            },
+            {
+                "id": 2,
+                "picture": "https://images.unsplash.com/photo-1621388986397-9f0b091e965d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fHBvdHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+                "name": "Phil Parker",
+                "comment": "Best Tech-Savvy In Indonesia"
+            }
+        ]
     },
     {
         "title": "Class Event",
         "price": 4000,
-        "description": "Content writing is one of the hot cakes of both local and freelancing marketplaces. Its demand is everywhere in the world because quality content can buy anything.",
+        "description": "A School Photographer is a professional photographer who is specialized in taking school or group photographs. The job description entails using creativity, composition skills; and technical expertise to preserve and produce images that capture or record an event. A well-drafted School Photographer Resume mentions the following core duties and tasks – visiting the school campus and identifying the correct location to a photoshoot; taking pictures of students, sports matches, special occasions, and prom events; preparing and photographing school students, faculty and staff of all ages; checking and archiving student photographs and their copies; setting up and adjusting the camera, and maintaining the confidentiality of all data relating to the school and students.Summary of skills that can highlight a resume is – an experience of photographing students and various school events; profound knowledge of setting up equipment, and props; knowledge of MS Office and camera equipment; the ability to use relevant software for editing and contrasting; and time-conscious attitude. To become one, the photographer should hold a degree in photography.",
         "image": "https://images.unsplash.com/photo-1643297654416-05795d62e39c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNlbGVicmF0aW9uJTIwY29sbGVnZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60",
         "rating": {
             "rate": 3.1
-        }
+        },
+        "reviews": [
+            {
+                "id": 1,
+                "picture": "https://images.unsplash.com/photo-1619024433865-8a444f3a3c2e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fHBvdHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+                "name": "Jeannie Stanley",
+                "comment": "Very much professional."
+            },
+            {
+                "id": 2,
+                "picture": "https://images.unsplash.com/photo-1635412437202-ed262109a1d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fHBvdHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+                "name": "Janice Casey",
+                "comment": "Passonate workers."
+            }
+        ]
     },
     {
         "title": "Film & Production",
         "price": 12000,
-        "description": "Excel has been the most effective Data Analysis & Reporting tool for years. However, with its recent developments and extensive use of these features, it is now regarded as an effective and amazing Presentation tool as well. Excel provides flexibility to manipulate and orient data with utmost ease and with minimal effort.",
+        "description": "The amount of experience a Film Producer needs depends on the size of the production, the budget, and your preferences. For small projects, candidates may only need limited production experience as a Production Assistant or intern. For large or high-budget projects, Film Producers need to have several years of experience and a proven record of successful film production. Candidates with relevant production experience in other creative industries, such as TV and stage productions, are also suitable as many of the skills for those productions are transferable to film.Ideal Film Producer candidates will have a bachelor’s degree in film production, but this is not necessary if the candidate has a proven track record for successful film production. Film Producer candidates with additional certifications in film studies, stage production, television production, or cinematography may have an advantage. Candidates with certifications in project planning and project management should be strongly considered, as they will have the required skills to oversee the production.Being the leader of the filmmaking process, a successful Film Producer must be highly organized. They should make quick and precise decisions to ensure the production stays on time. Additionally, a Film Producer should be a good negotiator ensuring everything is agreed upon before filming. Diplomacy is also paramount to ensure everyone gets along. Lastly, the Producer should have the energy to shoot long hours and ensure that all work meets the required production standards.A Film Producer is in charge of the production side of a film. They manage the budget, crew, and equipment of the film production process. On the other hand, a Film Director is in charge of the direction of the film. They outline the scenes and direct actors during their performances. They also make decisions about the camera work and editing of the film. Film Directors and Film Producers will work together closely to ensure the film meets the creative vision outlined in the development stage. ",
         "image": "https://images.unsplash.com/photo-1495580621852-5de0cc907d2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNhbWVyYXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60",
         "rating": {
             "rate": 4.6
-        }
+        },
+        "reviews": [
+            {
+                "id": 1,
+                "picture": "https://images.unsplash.com/photo-1600239267151-50bbd103b5f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fHBvdHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+                "name": "Adrienne Meyer",
+                "comment": "Will work with them in future."
+            }
+        ]
     }
 ]
